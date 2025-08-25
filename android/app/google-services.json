@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "287037071943",
+    "project_id": "loginsignup-7cfd0",
+    "storage_bucket": "loginsignup-7cfd0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287037071943:android:7c086507e47ce5f1114762",
+        "android_client_info": {
+          "package_name": "com.example.first_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZj7SeFCf4azJguUlg138OhXLyjJuskpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
