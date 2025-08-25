@@ -33,11 +33,13 @@ class _LoginPageState extends State<LoginPage> {
 
       // Show success message
       ScaffoldMessenger.of(
+        // ignore: use_build_context_synchronously
         context,
       ).showSnackBar(const SnackBar(content: Text("Login Successful")));
 
       // Navigate to Home Page
       Navigator.pushReplacement(
+        // ignore: use_build_context_synchronously
         context,
         MaterialPageRoute(builder: (_) => const YourRidesScreen()),
       ); // Replace HomePage with the correct class name from post_login.dart
@@ -53,6 +55,7 @@ class _LoginPageState extends State<LoginPage> {
       }
 
       ScaffoldMessenger.of(
+        // ignore: use_build_context_synchronously
         context,
       ).showSnackBar(SnackBar(content: Text(message)));
     } finally {
@@ -75,6 +78,7 @@ class _LoginPageState extends State<LoginPage> {
               borderRadius: BorderRadius.circular(16),
               boxShadow: [
                 BoxShadow(
+                  // ignore: deprecated_member_use
                   color: Colors.grey.withOpacity(0.3),
                   blurRadius: 8,
                   spreadRadius: 2,

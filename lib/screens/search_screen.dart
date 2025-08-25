@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -29,7 +31,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _searchRides() {
+    // ignore: duplicate_ignore
+    // ignore: avoid_print
     print("Leaving From: ${leavingFromController.text}");
+    // ignore: avoid_print
     print("Going To: ${goingToController.text}");
     print("Date: ${selectedDate != null ? selectedDate.toString().split(' ')[0] : 'Not Selected'}");
     print("Passengers: $passengers");
